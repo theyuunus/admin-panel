@@ -1,0 +1,32 @@
+.Home {
+    table{
+        border: 2px sol #000;
+
+        td{
+            border: 1px solid #333;
+        }
+
+        th{
+            @extend td ;
+        }
+
+    }
+}
+
+.Home{
+    table {
+        @extend table;
+    }
+
+    .table-wrap {
+        width: 900px;
+        margin: 0 auto ;
+    }
+
+}
+
+.Admin {
+    table {
+        @extend table;
+    }
+}

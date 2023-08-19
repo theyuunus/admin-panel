@@ -1,38 +1,10 @@
-.App {
-  text-align: center;
+.Home table, .Home .Admin table, .Admin .Home table {
+  border: 2px sol #000;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Home table td, .Home table th {
+  border: 1px solid #333;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.Home .table-wrap {
+  width: 900px;
+  margin: 0 auto;
+}/*# sourceMappingURL=App.css.map */
